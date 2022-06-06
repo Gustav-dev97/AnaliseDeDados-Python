@@ -14,7 +14,7 @@ tabela = pd.read_csv("telecom_users.csv")
 
 #Passo 2: visualizar a Base de Dados
 #Entender as informacoes que voce tem disponivel
-#Para voce corrigir as cagadas do banco de dados (em analise de dados informacao que nao te ajuda te atrapalha)
+#Para voce corrigir as redundâncias do banco de dados (em analise de dados informacao o que nao te ajuda te atrapalha)
 
 #Nao afeta o arquivo original
 #axis = 0 -> Linha, axis = 1 ->coluna
@@ -47,7 +47,7 @@ print(tabela["Churn"].value_counts(normalize=True).map("{:.1%}".format))
 #passo 5: Análise mais completa -> entender a causa dos cancelamentos/possiveis solucoes
 
 #Cria o Gráfico
-#Para cada coluna da nossa base de dados, eu quero criar 1 gráfico
+#Para cada coluna da nossa base de dados, criar 1 gráfico
 
 for coluna in tabela.columns:
     print(coluna)
@@ -72,9 +72,9 @@ for coluna in tabela.columns:
         # - Podemos estar fazzendo alguma ação de marketing muito ruim
 
 # -Temos algum problema na fibra, os clientes estão cancelando MUITO
-    # - Vou olhar mais a fundo a causa do cancelamento das fibras
+    # - Olhar mais a fundo a causa do cancelamento das fibras
 
-# -Quantos menos serviços o cara tem, maior a chance dele cancelar
+# -Quantos menos serviços a pessoa tem, maior a chance dele cancelar
     # - Podemos oferecer um serviço extra e graça
 
 # -Podemos incentivar pagamento no débito automático ou no cartão, taxas de cancelamento muito menores
