@@ -9,4 +9,4 @@ Analisando o histórico dos clientes dos últimos anos, você
 percebeu que mais de 26% dos clientes que entraram na
 empresa, cancelaram o contrato.
 A única informação que você tem é um arquivo .csv extraído do
-sistema da empresa (apresentado ao lado).
+sistema da empresa.
