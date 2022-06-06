@@ -1,5 +1,5 @@
 # AnaliseDeDados-Python
-Projeto análise de dados desenvolvido no Intensivão de Python da Hashtag Treinamentos (https://www.hashtagtreinamentos.com/) com código comentado
+Projeto análise de dados desenvolvido no Intensivão de Python da Hashtag Treinamentos com código comentado (https://www.hashtagtreinamentos.com/). 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
